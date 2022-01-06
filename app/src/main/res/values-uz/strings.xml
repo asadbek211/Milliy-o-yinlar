@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Milliy o\'yinlar</string>
+    <string name="kurash">Kurash</string>
+    <string name="ot_oyin">Ko\'pkari</string>
+    <string name="dorboz">Dorbozlik</string>
+    <string name="tosh_kotarish">Tosh ko\'tarish</string>
+    <string name="arqon_tortish">Arqon tortish</string>
+    <string name="kuch_sinash">Kuch sinashish</string>
+    <string name="harakatli_oyin">Harakatli o\'yinlar</string>
+    <string name="language">Til</string>
+    <string name="english">Inglizcha</string>
+    <string name="russian">Ruscha</string>
+    <string name="o_zbek">O\'zbekcha</string>
+    <string name="qoraqalpoq">Qoraqalpoqcha</string>
+</resources>

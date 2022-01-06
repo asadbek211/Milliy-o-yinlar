@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/itemCard"
+        android:background="@drawable/ic_fone_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/itemImg"
+                android:theme="@style/ShapeAppearanceOverlay.App.CornerSize10Percent"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+               android:padding="7dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/kurash2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txtOyin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:text="Kurash"
+        android:textColor="#FFE0BB7E"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemCard" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

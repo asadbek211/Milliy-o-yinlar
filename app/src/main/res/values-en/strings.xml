@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">National Games</string>
+    <string name="kurash">Kurash</string>
+    <string name="ot_oyin">Ko\'pkari</string>
+    <string name="dorboz">Dorbozlik</string>
+    <string name="tosh_kotarish">Stone lifting</string>
+    <string name="arqon_tortish">Tug of war</string>
+    <string name="kuch_sinash">Strength testing</string>
+    <string name="harakatli_oyin">Moving games</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+    <string name="o_zbek">Uzbek</string>
+    <string name="qoraqalpoq">Karakalpak</string>
+</resources>

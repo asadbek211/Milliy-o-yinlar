@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_black_fon"
+    tools:context=".fragments.open_text.OpenTextFragment">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Kurash"
+        android:textColor="@color/background_item"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/txt1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:justificationMode="inter_word"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="5dp"
+        android:text="@string/text"
+        android:textColor="@color/background_item"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/kurash1"
+        app:layout_constraintTop_toBottomOf="@+id/txt1" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/txt2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="5dp"
+        android:text="@string/text"
+        android:textColor="@color/background_item"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1"/>
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/kurash2_2"
+        app:layout_constraintTop_toBottomOf="@+id/txt2" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/txt3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="5dp"
+        android:text="@string/text"
+        android:textColor="@color/background_item"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img2"/>
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/img3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/kurash3"
+        app:layout_constraintTop_toBottomOf="@+id/txt3" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/text"
+        android:textColor="@color/background_item"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

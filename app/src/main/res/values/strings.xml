@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Milliy o\'yinlar</string>
+    <string name="kurash">Gúres</string>
+    <string name="ot_oyin">Kópkari</string>
+    <string name="dorboz">Darwazshılıq</string>
+    <string name="tosh_kotarish">Tas penenkóteriw</string>
+    <string name="arqon_tortish">Jıp tartıw</string>
+    <string name="kuch_sinash">Kúsh sınap kóriwish</string>
+    <string name="harakatli_oyin">Háreketli oyınlar</string>
+    <string name="language">Til</string>
+    <string name="english">Anglichan</string>
+    <string name="russian">Orıssha</string>
+    <string name="o_zbek">Ózbekshe</string>
+    <string name="qoraqalpoq">Qaraqalpaqsha</string>
+    <string name="text" translatable="false">"Kurash\n
+Kurash - sport turi, belgilangan qoidaga muvofiq ikki sportchining yakkama-yakka olishuvi. Kurashish san’ati ko‘p xalqlarda qadim zamonlardan buyon ma’lum. Kurash ayniqsa Yunonistonda keng tarqalib, qadimgi olimpiada musobaqalaridan doimiy o‘rin olib kelgan. Milliy Kurashning xilma-xil ko‘rinishlari Gretsiya, Italiya, Yaponiya, Turkiya, Eron, Afg‘oniston, Rossiya, O‘zbekiston, Gruziya, Armaniston, Ozarbayjon, Qozog‘iston va boshqa mamlakatlarda mavjud.
+"</string>
+
+</resources>

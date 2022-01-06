@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/asosiyFragment">
+
+    <fragment
+        android:id="@+id/asosiyFragment"
+        android:name="com.bizmiz.milliyoyinlar.fragments.asosiy.AsosiyFragment"
+        android:label="fragment_asosiy"
+        tools:layout="@layout/fragment_asosiy" >
+        <action
+            app:enterAnim="@anim/slide_left"
+            app:exitAnim="@anim/slide_wait"
+            app:popEnterAnim="@anim/slide_wait"
+            app:popExitAnim="@anim/slide_right"
+            android:id="@+id/action_asosiyFragment_to_oyinlarFragment"
+            app:destination="@id/oyinlarFragment" />
+        <action
+            app:enterAnim="@anim/slide_left_bottom"
+            app:exitAnim="@anim/slide_wait"
+            app:popEnterAnim="@anim/slide_wait"
+            app:popExitAnim="@anim/slide_right_bottom"
+            android:id="@+id/action_asosiyFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/oyinlarFragment"
+        android:name="com.bizmiz.milliyoyinlar.fragments.oyinlar.OyinlarFragment"
+        android:label="fragment_oyinlar"
+        tools:layout="@layout/fragment_oyinlar" >
+        <action
+            app:enterAnim="@anim/slide_left"
+            app:exitAnim="@anim/slide_wait"
+            app:popEnterAnim="@anim/slide_wait"
+            app:popExitAnim="@anim/slide_right"
+            android:id="@+id/action_oyinlarFragment_to_openTextFragment"
+            app:destination="@id/openTextFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.bizmiz.milliyoyinlar.fragments.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/openTextFragment"
+        android:name="com.bizmiz.milliyoyinlar.fragments.open_text.OpenTextFragment"
+        android:label="fragment_open_text"
+        tools:layout="@layout/fragment_open_text" />
+</navigation>
